@@ -9,3 +9,5 @@ When executing, please respect "./pipex file1 cmd1 cmd2 file2", which correspond
 - Managing several pipes: "./pipex file1 cmd1 cmd2 cmd3 ... cmdn file2" will reproduce the operation of "< file1 cmd1 | cmd2 | cmd3 ... | cmdn > file2" in shell.<br>
 - heredoc and redirection of standard output in APPEND mode when the first parameter is "here_doc": "./pipex here_doc LIMITER cmd cmd1 file" reproduces the operation of "cmd << LIMITER | cmd1 >> file" in shell.<br><br>
 To access the bonuses, type “make bonus”.</p>
+
+<p align="center"><a href="https://github.com/Coday-meric/badge42"><img src="https://badge42.coday.fr/api/v2/clp5m5snf023301t6xzuyuuls/project/3063870" alt="hbaduel's 42 pipex Score" /></a></p>
